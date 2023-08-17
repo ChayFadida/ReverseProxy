@@ -1,0 +1,7 @@
+version: '3'
+services:
+  nginx:
+    image: harbor.chay-techs.com/reverseproxy/main_reverse_proxy-nginx:latest
+    restart: always
+    ports:
+      - 80:8080
