@@ -1,0 +1,2 @@
+# Ignore log files in the ./nginx/log/ directory
+nginx/log/*
